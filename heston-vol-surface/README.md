@@ -16,7 +16,7 @@ Charts are written to `charts/`.
 ## What is inside
 
 - Files: heston_vol_surface.py (engine) + model.py (charts)
-- Data: None, runs offline
+- Data: Simulated, characteristic function integration
 
 ## Write-up
 

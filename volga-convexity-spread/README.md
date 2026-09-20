@@ -16,7 +16,7 @@ Charts are written to `charts/`.
 ## What is inside
 
 - Files: model.py
-- Data: None, fitted smile constants included
+- Data: Smile fitted from a real SPY chain
 
 ## Write-up
 

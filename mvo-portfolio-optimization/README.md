@@ -16,7 +16,7 @@ Charts are written to `charts/`.
 ## What is inside
 
 - Files: notebook
-- Data: yfinance, plus a free FRED key in FRED_API_KEY for the risk free rate
+- Data: Real prices via yfinance, risk free rate from FRED
 
 ## Write-up
 

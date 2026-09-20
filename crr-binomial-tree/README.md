@@ -16,7 +16,7 @@ Charts are written to `charts/`.
 ## What is inside
 
 - Files: notebook + model.py
-- Data: None, runs offline
+- Data: Analytic lattice, worked example inputs
 
 ## Write-up
 

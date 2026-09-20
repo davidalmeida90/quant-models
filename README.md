@@ -1,28 +1,34 @@
 # Quant Models in Python
 
+[![Star this repo](https://img.shields.io/github/stars/davidalmeida90/quant-models?style=for-the-badge&label=STAR%20THIS%20REPO&logo=github&color=133F92)](https://github.com/davidalmeida90/quant-models/stargazers)
+[![Follow on X](https://img.shields.io/badge/Follow%20on%20X-@Davidariasfin-111111?style=for-the-badge&logo=x)](https://x.com/Davidariasfin)
+[![Newsletter](https://img.shields.io/badge/Newsletter-free%20every%20week-C9A227?style=for-the-badge&logo=substack&logoColor=white)](https://davidariasfinance.com/newsletter/)
+[![Write-ups](https://img.shields.io/badge/Write--ups-davidariasfinance.com-1E56B8?style=for-the-badge)](https://davidariasfinance.com/scripts/)
+
 Open-source implementations of the quantitative finance models published on
 [davidariasfinance.com](https://davidariasfinance.com/scripts/): option pricing and Greeks, volatility
-surfaces, hedging, portfolio construction and Monte Carlo. Every model runs on free data or no data at
-all, every result on the site comes from the code in this repository, and every folder links back to the
-full write-up.
+surfaces, hedging, portfolio construction and Monte Carlo. Models run on free market data, on simulated
+paths, or straight from the formulas. Every result on the site comes from the code in this repository,
+and every folder links back to the full write-up.
 
-If this is useful, a star helps other people find it.
+**A star costs nothing and puts these models in front of other people. Following on
+[X](https://x.com/Davidariasfin) is where every new model gets posted first.**
 
 | Model | What it does | Data |
 |---|---|---|
-| [Black-Scholes](black-scholes/) | European prices, no-arbitrage bounds, implied volatility by Brent | none |
-| [Option Greeks](option-greeks/) | Delta, gamma, theta, vega, rho, and how each behaves | none |
-| [Second and third order Greeks](advanced-greeks/) | Vanna, volga, charm, veta, speed, zomma, color, ultima, checked against finite differences | yfinance, or offline `--validate` |
-| [Gamma surface](gamma-surface/) | Gamma across spot, strike, vol and time, plus the gamma and theta trade-off | none |
-| [Heston volatility surface](heston-vol-surface/) | Stochastic volatility by characteristic function, inverted into an implied vol surface | none |
-| [Neural network vol surface](neural-network-vol-surface/) | Two from-scratch numpy MLPs learn the SPY implied vol surface | chain snapshot included |
-| [Deep hedging](deep-hedging/) | A network learns to hedge a call spread, judged on tail risk | simulated |
-| [Volga convexity spread](volga-convexity-spread/) | Where a short strangle's convexity sits, and how wing width changes it | none |
-| [Hierarchical risk parity](hierarchical-risk-parity/) | Lopez de Prado's HRP: cluster the correlation matrix, allocate down the tree | prices included |
-| [Risk based allocation](risk-based-allocation/) | HRP, HCAA, risk parity, minimum variance and equal weight compared | prices included |
-| [Mean variance optimization](mvo-portfolio-optimization/) | Efficient frontier, maximum Sharpe, constraints and a backtest | yfinance + FRED key |
-| [Monte Carlo, GBM](monte-carlo-gbm/) | Ten million paths, antithetic variates, convergence to the closed form | none |
-| [CRR binomial tree](crr-binomial-tree/) | European and American options, early exercise, convergence | none |
+| [Black-Scholes](black-scholes/) | European prices, no-arbitrage bounds, implied volatility by Brent | analytic |
+| [Option Greeks](option-greeks/) | Delta, gamma, theta, vega, rho, and how each behaves | analytic |
+| [Second and third order Greeks](advanced-greeks/) | Vanna, volga, charm, veta, speed, zomma, color, ultima, checked against finite differences | live chain, yfinance |
+| [Gamma surface](gamma-surface/) | Gamma across spot, strike, vol and time, plus the gamma and theta trade-off | simulated grid |
+| [Heston volatility surface](heston-vol-surface/) | Stochastic volatility by characteristic function, inverted into an implied vol surface | simulated |
+| [Neural network vol surface](neural-network-vol-surface/) | Two from-scratch numpy MLPs learn the SPY implied vol surface | real SPY chain, included |
+| [Deep hedging](deep-hedging/) | A network learns to hedge a call spread, judged on tail risk | simulated paths |
+| [Volga convexity spread](volga-convexity-spread/) | Where a short strangle's convexity sits, and how wing width changes it | smile fitted from a real chain |
+| [Hierarchical risk parity](hierarchical-risk-parity/) | Lopez de Prado's HRP: cluster the correlation matrix, allocate down the tree | real prices, included |
+| [Risk based allocation](risk-based-allocation/) | HRP, HCAA, risk parity, minimum variance and equal weight compared | real prices, included |
+| [Mean variance optimization](mvo-portfolio-optimization/) | Efficient frontier, maximum Sharpe, constraints and a backtest | yfinance + FRED |
+| [Monte Carlo, GBM](monte-carlo-gbm/) | Ten million paths, antithetic variates, convergence to the closed form | simulated paths |
+| [CRR binomial tree](crr-binomial-tree/) | European and American options, early exercise, convergence | analytic |
 
 ## Quickstart
 

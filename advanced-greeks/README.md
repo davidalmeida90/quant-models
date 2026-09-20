@@ -14,7 +14,7 @@ Charts are written to `charts/`.
 ## What is inside
 
 - Files: model.py
-- Data: yfinance for the live chain, or --validate to run offline
+- Data: Live NVDA option chain via yfinance, offline validation included
 
 ## Write-up
 

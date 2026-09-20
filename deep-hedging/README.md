@@ -16,7 +16,7 @@ Charts are written to `charts/`.
 ## What is inside
 
 - Files: model.py
-- Data: None, simulated GBM paths
+- Data: Simulated GBM paths
 
 ## Write-up
 

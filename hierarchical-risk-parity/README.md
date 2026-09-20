@@ -16,7 +16,7 @@ Charts are written to `charts/`.
 ## What is inside
 
 - Files: notebook + model.py + data/prices.csv
-- Data: prices.csv included (792 KB), or yfinance
+- Data: Monte Carlo per the paper, plus real ETF prices included
 
 ## Write-up
 

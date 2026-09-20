@@ -16,7 +16,7 @@ Charts are written to `charts/`.
 ## What is inside
 
 - Files: model.py
-- Data: None, runs offline
+- Data: Analytic, simulated spot grid
 
 ## Write-up
 

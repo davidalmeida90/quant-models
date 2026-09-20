@@ -16,7 +16,7 @@ Charts are written to `charts/`.
 ## What is inside
 
 - Files: notebook + model.py + data/spy_chain.csv
-- Data: SPY chain snapshot included (201 KB), or pulled live with yfinance
+- Data: Real SPY option chain, snapshot included
 
 ## Write-up
 
