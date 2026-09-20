@@ -1,0 +1,18 @@
+# Core, needed by every model
+numpy>=1.24
+scipy>=1.10
+matplotlib>=3.7
+
+# Data and tables (portfolio models, live option chains)
+pandas>=2.0
+yfinance>=0.2.40
+
+# Mean variance optimization, risk free rate from FRED (free API key)
+fredapi>=0.5
+
+# Notebooks
+jupyter>=1.0
+
+# Risk based allocation, GARCH covariance variant
+arch>=6.2
+scikit-learn>=1.3
