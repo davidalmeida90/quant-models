@@ -1,7 +1,7 @@
 """Render the plots for the neural-network-vol-surface page.
 
 Pulls SPY option chain data (cached snapshot in vol_data/snapshots/), builds
-the empirical IV surface, then trains two MLPs (small + big, same as the reel)
+the empirical IV surface, then trains two MLPs (small and big)
 on the surface and renders prediction-vs-truth snapshots at several epoch
 checkpoints.
 
@@ -64,7 +64,7 @@ Z_LO, Z_HI = 0.10, 0.45
 
 
 # =============================================================================
-# 2. Build features (same 5 polynomial features as the reel)
+# 2. Build features: five polynomial terms
 # =============================================================================
 def features(K, T, S0=S0):
     K = np.asarray(K).flatten()
@@ -84,7 +84,7 @@ y_centered = y_full - Y_MEAN
 
 
 # =============================================================================
-# 3. MLP (Adam, ReLU) — identical structure to the reel
+# 3. MLP (Adam, ReLU)
 # =============================================================================
 class MLP:
     def __init__(self, sizes, seed=42):

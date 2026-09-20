@@ -177,7 +177,7 @@ BLOCKS = [(str(a), int(b), int(c)) for a, b, c in
           zip(E["blocks"], E["bstart"], E["bstop"])]
 # Correlation between what a cell did in sample and what the SAME cell did
 # out of sample, across all 891 of them. On a real effect it is high. On the
-# pairs reel, where nothing survived, it is not.
+# pairs study, where nothing survived, it is not.
 RANK_CORR = float(np.corrcoef(ISR.ravel(), OOS.ravel())[0, 1])
 # What the paper prescribes: about a year of lookback, held about a month.
 LI = int(np.argmin(np.abs(LOOKBACK - 252)))
