@@ -14,6 +14,10 @@ and every folder links back to the full write-up.
 **A star costs nothing and puts these models in front of other people. Following on
 [X](https://x.com/Davidariasfin) is where every new model gets posted first.**
 
+Machine learning and deep learning for finance, the GEX trading bot and the rest of the larger
+projects keep their own repositories, listed in
+[more models, in their own repositories](#more-models-in-their-own-repositories) below.
+
 | Model | What it does | Data |
 |---|---|---|
 | [Black-Scholes](black-scholes/) | European prices, no-arbitrage bounds, implied volatility by Brent | analytic |
@@ -29,11 +33,15 @@ and every folder links back to the full write-up.
 | [Mean variance optimization](mvo-portfolio-optimization/) | Efficient frontier, maximum Sharpe, constraints and a backtest | yfinance + FRED |
 | [Monte Carlo, GBM](monte-carlo-gbm/) | Ten million paths, antithetic variates, convergence to the closed form | simulated paths |
 | [CRR binomial tree](crr-binomial-tree/) | European and American options, early exercise, convergence | analytic |
+| [Six volatility models](volatility-models/) | arch, QuantLib, FinancePy, tf-quant-finance, gs-quant and an SVI fit | free market data |
+| [Time series momentum](time-series-momentum/) | 990 settings swept on 45 ETFs, in sample and out of sample | ETF prices, yfinance |
+| [Yield curves, US and Brazil](yield-curve-us-brazil/) | FRED and Tesouro Direto, with a Nelson Siegel Svensson fit | FRED + BCB + Tesouro |
 
 ## Quickstart
 
 ```bash
-git clone https://github.com/davidalmeida90/quant-models.git
+# fork it on GitHub first, then
+git clone https://github.com/<your-user>/quant-models.git
 cd quant-models
 pip install -r requirements.txt
 
@@ -63,9 +71,6 @@ py -3 model.py          # charts land in charts/
 | [delta-hedging-error-monte-carlo](https://github.com/davidalmeida90/delta-hedging-error-monte-carlo) | Hedging error of a short call across 150,000 simulated paths |
 | [spy-iv-surface](https://github.com/davidalmeida90/spy-iv-surface) | Deep learning the SPY implied volatility surface on 2010-2023 chains |
 | [finance-agent-kit](https://github.com/davidalmeida90/finance-agent-kit) | Equity valuation skills and data MCP servers for DeepSeek Harness and Claude Code |
-
-Still to come here: the volatility model tour (arch, QuantLib, FinancePy, gs-quant, tf-quant-finance,
-SVI), time series momentum, and the US and Brazil yield curves.
 
 ## Videos
 

@@ -28,6 +28,10 @@ Pull requests and issues are welcome.
 - Report results honestly, including the ones that do not work. Out-of-sample numbers stay in.
 - Papers are cited with a link, never redistributed as PDFs.
 
+## Getting started
+
+Fork the repository, then clone your fork. Pull requests come from your fork's branch.
+
 ## Running a model
 
 ```bash
