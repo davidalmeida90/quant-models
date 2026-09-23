@@ -33,6 +33,7 @@ projects keep their own repositories, listed in
 | [Mean variance optimization](mvo-portfolio-optimization/) | Efficient frontier, maximum Sharpe, constraints and a backtest | yfinance + FRED |
 | [Monte Carlo, GBM](monte-carlo-gbm/) | Ten million paths, antithetic variates, convergence to the closed form | simulated paths |
 | [CRR binomial tree](crr-binomial-tree/) | European and American options, early exercise, convergence | analytic |
+| [Volatility and option models](volatility-and-option-models/) | Straddles and calendars, Heston calibrated against one Black-Scholes vol, GJR-GARCH out of sample against the VIX, deep hedging in PyTorch, and the VIX futures basis trade | live Cboe chain + yfinance |
 | [Six volatility models](volatility-models/) | arch, QuantLib, FinancePy, tf-quant-finance, gs-quant and an SVI fit | free market data |
 | [Time series momentum](time-series-momentum/) | 990 settings swept on 45 ETFs, in sample and out of sample | ETF prices, yfinance |
 | [Yield curves, US and Brazil](yield-curve-us-brazil/) | FRED and Tesouro Direto, with a Nelson Siegel Svensson fit | FRED + BCB + Tesouro |
