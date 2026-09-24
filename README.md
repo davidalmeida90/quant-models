@@ -68,8 +68,7 @@ py -3 model.py          # charts land in charts/
 |---|---|
 | [gex-trading-bot](https://github.com/davidalmeida90/gex-trading-bot) | Gamma exposure from the free Cboe chain, plus a last-half-hour MES strategy on the Interactive Brokers API |
 | [machine-learning-trading-engine](https://github.com/davidalmeida90/machine-learning-trading-engine) | Gu, Kelly and Xiu (2020) reproduced on free data, with a paper-trading engine |
-| [machine-learning-for-finance](https://github.com/davidalmeida90/machine-learning-for-finance) | Trees, random forests and XGBoost on a survivorship-free S&P 500 panel, plus PCA and Lasso |
-| [deep-learning-for-finance](https://github.com/davidalmeida90/deep-learning-for-finance) | Five architectures on real market data: FFN, LSTM, transformer, CNN and autoencoder |
+| [machine-learning-for-finance](https://github.com/davidalmeida90/machine-learning-for-finance) | Trees, random forests and XGBoost on a survivorship-free S&P 500 panel, plus PCA and Lasso, and five deep learning architectures in `deep-learning/` |
 | [spy-iv-surface](https://github.com/davidalmeida90/spy-iv-surface) | Deep learning the SPY implied volatility surface on 2010-2023 chains |
 | [finance-agent-kit](https://github.com/davidalmeida90/finance-agent-kit) | Equity valuation skills and data MCP servers for DeepSeek Harness and Claude Code |
 
