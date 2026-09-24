@@ -1,0 +1,103 @@
+{
+  "params": {
+    "sigma": 0.18,
+    "S0": 100.0,
+    "K": 100.0,
+    "r": 0.02,
+    "life_days": 20,
+    "paths": 150000,
+    "seed": 11
+  },
+  "by_maturity": [
+    {
+      "T_days": 10,
+      "option_value": 1.4698546452522478,
+      "gamma": 0.11117043692822608,
+      "delta": 0.5159782679715853,
+      "spread_at_strike": 0.10320873923364991,
+      "error_share_of_value": 0.07021696979835569,
+      "best_day_simulated": 0.0733548434847393,
+      "best_day_theory": 0.07335134717972076,
+      "worst_day": -1.556338694690529,
+      "mean_pnl": 0.00037858993303775196,
+      "wings_spread": 0.024711897833292515
+    },
+    {
+      "T_days": 5,
+      "option_value": 1.0312367363299515,
+      "gamma": 0.157281835815196,
+      "delta": 0.5112998526340315,
+      "spread_at_strike": 0.14659993847880978,
+      "error_share_of_value": 0.14215934451728462,
+      "best_day_simulated": 0.10675304876464349,
+      "best_day_theory": 0.10674828009885827,
+      "worst_day": -1.7879666671328425,
+      "mean_pnl": 0.00034864454674694183,
+      "wings_spread": 0.010286967529450464
+    },
+    {
+      "T_days": 2,
+      "option_value": 0.6476404492164889,
+      "gamma": 0.2487442953801976,
+      "delta": 0.50714722780407,
+      "spread_at_strike": 0.2319541349821187,
+      "error_share_of_value": 0.358152637412835,
+      "best_day_simulated": 0.1873573242154672,
+      "best_day_theory": 0.1873498839630289,
+      "worst_day": -2.1669288890046117,
+      "mean_pnl": 0.00019321348013984812,
+      "wings_spread": 0.0013008851417341796
+    },
+    {
+      "T_days": 1,
+      "option_value": 0.45631682960483033,
+      "gamma": 0.3518057871471977,
+      "delta": 0.5050539884339129,
+      "spread_at_strike": 0.3457721128358893,
+      "error_share_of_value": 0.7577456942259339,
+      "best_day_simulated": 0.45206924485671446,
+      "best_day_theory": 0.4523445226095119,
+      "worst_day": -2.658972332768713,
+      "mean_pnl": 6.122092151229755e-05,
+      "wings_spread": 1.4540693377615438e-06
+    }
+  ],
+  "rebalancing": [
+    {
+      "rebalances": 1,
+      "every_minutes": 390.0,
+      "spread": 0.3412466098128133,
+      "mean": 0.00019836670428709005
+    },
+    {
+      "rebalances": 2,
+      "every_minutes": 195.0,
+      "spread": 0.25144838814971543,
+      "mean": -0.0005988473638784233
+    },
+    {
+      "rebalances": 4,
+      "every_minutes": 97.5,
+      "spread": 0.183773223465834,
+      "mean": -0.00042124325924843405
+    },
+    {
+      "rebalances": 12,
+      "every_minutes": 32.5,
+      "spread": 0.10952983810521474,
+      "mean": 8.986651089500192e-05
+    },
+    {
+      "rebalances": 26,
+      "every_minutes": 15.0,
+      "spread": 0.07575176618907767,
+      "mean": 0.00010914838893118283
+    },
+    {
+      "rebalances": 78,
+      "every_minutes": 5.0,
+      "spread": 0.04439218326632263,
+      "mean": 0.00010184941747341663
+    }
+  ]
+}
