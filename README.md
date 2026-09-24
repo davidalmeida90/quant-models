@@ -24,6 +24,7 @@ projects keep their own repositories, listed in
 | [Option Greeks](option-greeks/) | Delta, gamma, theta, vega, rho, and how each behaves | analytic |
 | [Second and third order Greeks](advanced-greeks/) | Vanna, volga, charm, veta, speed, zomma, color, ultima, checked against finite differences | live chain, yfinance |
 | [Gamma surface](gamma-surface/) | Gamma across spot, strike, vol and time, plus the gamma and theta trade-off | simulated grid |
+| [Delta hedging error](delta-hedging-error/) | A short call hedged daily across 150,000 paths: how much one day of hedging costs, and why gamma sets it | simulated paths |
 | [Heston volatility surface](heston-vol-surface/) | Stochastic volatility by characteristic function, inverted into an implied vol surface | simulated |
 | [Neural network vol surface](neural-network-vol-surface/) | Two from-scratch numpy MLPs learn the SPY implied vol surface | real SPY chain, included |
 | [Deep hedging](deep-hedging/) | A network learns to hedge a call spread, judged on tail risk | simulated paths |
@@ -69,7 +70,6 @@ py -3 model.py          # charts land in charts/
 | [machine-learning-trading-engine](https://github.com/davidalmeida90/machine-learning-trading-engine) | Gu, Kelly and Xiu (2020) reproduced on free data, with a paper-trading engine |
 | [machine-learning-for-finance](https://github.com/davidalmeida90/machine-learning-for-finance) | Trees, random forests and XGBoost on a survivorship-free S&P 500 panel, plus PCA and Lasso |
 | [deep-learning-for-finance](https://github.com/davidalmeida90/deep-learning-for-finance) | Five architectures on real market data: FFN, LSTM, transformer, CNN and autoencoder |
-| [delta-hedging-error-monte-carlo](https://github.com/davidalmeida90/delta-hedging-error-monte-carlo) | Hedging error of a short call across 150,000 simulated paths |
 | [spy-iv-surface](https://github.com/davidalmeida90/spy-iv-surface) | Deep learning the SPY implied volatility surface on 2010-2023 chains |
 | [finance-agent-kit](https://github.com/davidalmeida90/finance-agent-kit) | Equity valuation skills and data MCP servers for DeepSeek Harness and Claude Code |
 

@@ -8,7 +8,7 @@ cash pays interest every day.
 
     python delta_hedging_mc.py
 
-Writes figures/*.png and results.json next to this file. Needs numpy, scipy and matplotlib.
+Writes charts/*.png and results.json next to this file. Needs numpy, scipy and matplotlib.
 Runs in under a minute on a laptop.
 """
 import json
@@ -21,7 +21,7 @@ matplotlib.use("Agg")
 import matplotlib.pyplot as plt
 
 HERE = Path(__file__).resolve().parent
-FIGS = HERE / "figures"
+FIGS = HERE / "charts"
 FIGS.mkdir(exist_ok=True)
 
 # ----------------------------------------------------------------------------- 1. parameters

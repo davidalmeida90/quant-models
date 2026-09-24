@@ -9,12 +9,12 @@ Full write up, step by step with the charts: https://davidariasfinance.com/scrip
 
 ## Run
 
-```
-pip install -r requirements.txt
-python delta_hedging_mc.py
+```bash
+pip install -r ../requirements.txt
+py -3 delta_hedging_mc.py
 ```
 
-Writes `figures/*.png` and `results.json`. Runs in about ten seconds on a laptop.
+Charts are written to `charts/`, the numbers to `results.json`. Runs in about ten seconds on a laptop.
 
 ## Results
 
@@ -56,4 +56,4 @@ One option and one strike.
 
 ## License
 
-MIT
+MIT, see the repository [LICENSE](../LICENSE).
