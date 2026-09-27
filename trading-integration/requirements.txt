@@ -1,0 +1,5 @@
+# pip install -r requirements.txt
+# TradingAgents is a git install, see README.md: clone the repo and pip install . inside it
+alpaca-py
+ib_async
+lean

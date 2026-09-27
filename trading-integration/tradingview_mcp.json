@@ -1,0 +1,8 @@
+{
+  "mcpServers": {
+    "tradingview": {
+      "command": "/Users/YOUR_USERNAME/.local/bin/uvx",
+      "args": ["--from", "tradingview-mcp-server", "tradingview-mcp"]
+    }
+  }
+}

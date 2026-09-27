@@ -38,6 +38,7 @@ projects keep their own repositories, listed in
 | [Six volatility models](volatility-models/) | arch, QuantLib, FinancePy, tf-quant-finance, gs-quant and an SVI fit | free market data |
 | [Time series momentum](time-series-momentum/) | 990 settings swept on 45 ETFs, in sample and out of sample | ETF prices, yfinance |
 | [Yield curves, US and Brazil](yield-curve-us-brazil/) | FRED and Tesouro Direto, with a Nelson Siegel Svensson fit | FRED + BCB + Tesouro |
+| [Trading integration](trading-integration/) | Connect a strategy to Alpaca or IBKR paper, TradingAgents, TradingView MCP and Lean | free paper accounts |
 
 ## Quickstart
 
