@@ -153,7 +153,7 @@ def spreads(sq):
 
 # ---- step 6: how much the sign convention moves the answer ------------------------------------------
 def sign_scenarios(df, iv, spot, hours):
-    """Dealer gamma at spot under four views of who holds the same day book."""
+    """Dealer gamma at spot under three views of who holds the same day book."""
     std = np.where(df.is_call, 1.0, -1.0)
     sd = df.same_day.to_numpy()
     netted = np.where(sd, 0.0, std)                           # same day flow two way, nets to zero
