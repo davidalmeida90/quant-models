@@ -24,6 +24,7 @@ projects keep their own repositories, listed in
 | [Option Greeks](option-greeks/) | Delta, gamma, theta, vega, rho, and how each behaves | analytic |
 | [Second and third order Greeks](advanced-greeks/) | Vanna, volga, charm, veta, speed, zomma, color, ultima, checked against finite differences | live chain, yfinance |
 | [Gamma surface](gamma-surface/) | Gamma across spot, strike, vol and time, plus the gamma and theta trade-off | simulated grid |
+| [Same day SPX gamma (GEX)](gex-0dte/) | Dealer gamma on the full SPX chain as the same day expiry closes in: the gamma flip, the book by strike, the hedge a small move forces, and fifteen years of GEX against the next day | live Cboe chain + SqueezeMetrics |
 | [Delta hedging error](delta-hedging-error/) | A short call hedged daily across 150,000 paths: how much one day of hedging costs, and why gamma sets it | simulated paths |
 | [Heston volatility surface](heston-vol-surface/) | Stochastic volatility by characteristic function, inverted into an implied vol surface | simulated |
 | [Neural network vol surface](neural-network-vol-surface/) | Two from-scratch numpy MLPs learn the SPY implied vol surface | real SPY chain, included |
