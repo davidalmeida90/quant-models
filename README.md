@@ -2,6 +2,7 @@
 
 [![Star this repo](https://img.shields.io/github/stars/davidalmeida90/quant-models?style=for-the-badge&label=STAR%20THIS%20REPO&logo=github&color=133F92)](https://github.com/davidalmeida90/quant-models/stargazers)
 [![Follow on X](https://img.shields.io/badge/Follow%20on%20X-@Davidariasfin-111111?style=for-the-badge&logo=x)](https://x.com/Davidariasfin)
+[![Watch on YouTube](https://img.shields.io/badge/Watch%20on%20YouTube-@DavidAriasCFA222-FF0000?style=for-the-badge&logo=youtube&logoColor=white)](https://www.youtube.com/@DavidAriasCFA222)
 [![Newsletter](https://img.shields.io/badge/Newsletter-free%20every%20week-C9A227?style=for-the-badge&logo=substack&logoColor=white)](https://davidariasfinance.com/newsletter/)
 [![Write-ups](https://img.shields.io/badge/Write--ups-davidariasfinance.com-1E56B8?style=for-the-badge)](https://davidariasfinance.com/scripts/)
 
@@ -10,6 +11,10 @@ Open-source implementations of the quantitative finance models published on
 surfaces, hedging, portfolio construction and Monte Carlo. Models run on free market data, on simulated
 paths, or straight from the formulas. Every result on the site comes from the code in this repository,
 and every folder links back to the full write-up.
+
+<a href="https://www.youtube.com/watch?v=aI240XlqgTw"><img src="https://img.youtube.com/vi/aI240XlqgTw/maxresdefault.jpg" alt="Watch the latest video: Convertible and Callable Bonds, Pricing the Hidden Options" width="560"></a>
+
+**Latest video:** [Convertible and Callable Bonds: Pricing the Hidden Options](https://www.youtube.com/watch?v=aI240XlqgTw). Every video is on the channel, [@DavidAriasCFA222](https://www.youtube.com/@DavidAriasCFA222).
 
 **A star costs nothing and puts these models in front of other people. Following on
 [X](https://x.com/Davidariasfin) is where every new model gets posted first.**
@@ -39,6 +44,7 @@ projects keep their own repositories, listed in
 | [Six volatility models](volatility-models/) | arch, QuantLib, FinancePy, tf-quant-finance, gs-quant and an SVI fit | free market data |
 | [Time series momentum](time-series-momentum/) | 990 settings swept on 45 ETFs, in sample and out of sample | ETF prices, yfinance |
 | [Convertible and callable bonds](convertible-callable-bonds/) | The option inside three real bonds: a DoorDash convertible (Black-Scholes and a Tsiveriotis-Fernandes tree), a Viking callable (yield to worst, rate tree, OAS) and a Strategy putable | FINRA + SEC filings + Treasury + Yahoo |
+| [Options models for fixed income](fixed-income-options-models/) | Callable and puttable bonds on a Black-Derman-Toy tree, a Tsiveriotis-Fernandes convertible, the MBS prepayment option, Merton on Boeing and four other names, and Hull-White fitted on T-bills since 1990 | FRED + SEC filings + Yahoo |
 | [Yield curves, US and Brazil](yield-curve-us-brazil/) | FRED and Tesouro Direto, with a Nelson Siegel Svensson fit | FRED + BCB + Tesouro |
 | [Trading integration](trading-integration/) | Connect a strategy to Alpaca or IBKR paper, TradingAgents, TradingView MCP and Lean | free paper accounts |
 
@@ -69,7 +75,6 @@ py -3 model.py          # charts land in charts/
 
 | Repository | What it is |
 |---|---|
-| [fixed-income-options-models](https://github.com/davidalmeida90/fixed-income-options-models) | Options inside bonds on free data: callable and puttable bonds on a Black-Derman-Toy tree, Tsiveriotis-Fernandes convertibles, the MBS prepayment option, Merton on Boeing, and Hull-White |
 | [gex-trading-bot](https://github.com/davidalmeida90/gex-trading-bot) | Gamma exposure from the free Cboe chain, plus a last-half-hour MES strategy on the Interactive Brokers API |
 | [machine-learning-trading-engine](https://github.com/davidalmeida90/machine-learning-trading-engine) | Gu, Kelly and Xiu (2020) reproduced on free data, with a paper-trading engine |
 | [machine-learning-for-finance](https://github.com/davidalmeida90/machine-learning-for-finance) | Trees, random forests and XGBoost on a survivorship-free S&P 500 panel, plus PCA and Lasso, and five deep learning architectures in `deep-learning/` |
