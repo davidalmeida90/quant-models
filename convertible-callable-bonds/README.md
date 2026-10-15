@@ -1,6 +1,6 @@
 # Convertible and Callable Bonds
 
-Pricing the option inside three real bonds with free data, as of 14 October 2026: a convertible, a callable and a putable. Companion code to the YouTube video *Convertible and Callable Bonds: Pricing the Hidden Options*.
+Pricing the option inside three real bonds with free data, as of 14 October 2026: a convertible, a callable and a putable. Companion code to the YouTube video [Convertible and Callable Bonds: Pricing the Hidden Options](https://www.youtube.com/watch?v=aI240XlqgTw).
 
 | Bond | CUSIP | Type | Who owns the option | Models |
 |---|---|---|---|---|

@@ -78,6 +78,7 @@ py -3 model.py          # charts land in charts/
 
 ## Videos
 
+- [Convertible and Callable Bonds: Pricing the Hidden Options](https://www.youtube.com/watch?v=aI240XlqgTw)
 - [Gamma Exposure (GEX) Trading Bot in Python with the IBKR API](https://www.youtube.com/watch?v=mA8H1k5O9vc)
 - [Machine Learning Trading Bot in Python: Neural Network + IBKR API](https://www.youtube.com/watch?v=j-uwUwr3aXw)
 
