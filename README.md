@@ -68,6 +68,7 @@ py -3 model.py          # charts land in charts/
 
 | Repository | What it is |
 |---|---|
+| [fixed-income-options-models](https://github.com/davidalmeida90/fixed-income-options-models) | Options inside bonds on free data: callable and puttable bonds on a Black-Derman-Toy tree, Tsiveriotis-Fernandes convertibles, the MBS prepayment option, Merton on Boeing, and Hull-White |
 | [gex-trading-bot](https://github.com/davidalmeida90/gex-trading-bot) | Gamma exposure from the free Cboe chain, plus a last-half-hour MES strategy on the Interactive Brokers API |
 | [machine-learning-trading-engine](https://github.com/davidalmeida90/machine-learning-trading-engine) | Gu, Kelly and Xiu (2020) reproduced on free data, with a paper-trading engine |
 | [machine-learning-for-finance](https://github.com/davidalmeida90/machine-learning-for-finance) | Trees, random forests and XGBoost on a survivorship-free S&P 500 panel, plus PCA and Lasso, and five deep learning architectures in `deep-learning/` |
