@@ -1,0 +1,21 @@
+Treasury zero rates: 1y 4.48%  1.6y 4.66%  3.6y 4.89%  4.75y 4.94%
+
+VIKING 9.125% 2031, last trade 104.50
+  yield to Jul 2027 @102.281  5.899%
+  yield to Jul 2028 @100      6.356%
+  yield to maturity 2031      7.963%
+  OAS 97 bp | straight 112.83 | callable 104.50 | call worth 8.33 points
+
+STRATEGY 0% 2029, last trade 90.43, put 1 Jun 2028 @100, stock 143.24, vol 71%
+  yield to put 6.37% | yield to maturity 3.26% | Treasury 1.6y 4.67% (cont.)
+  implied credit spread 204 bp | straight bond 80.53
+  without the put 83.11 -> put worth 7.32 | without conversion 89.35 -> conversion worth 1.08
+  conversion value today 21.3
+
+DOORDASH 0% 2030, last trade 94.48, stock 184.01, vol 48%, Treasury 4.89%
+  conversion value 63.0 | premium 50%
+  implied credit spread 181 bp -> bond floor 78.65
+  Black Scholes: one call 48.09 $ -> x3.425 = 16.47 points -> bond + call = 95.12
+  Tree (TF, soft call May 2028 at 130%): 94.48 | delta 0.1829 per 100 face = 1.83 shares per bond (53% of the 3.425 conversion shares)
+    check: spread 100 bp -> tree 96.08
+    check: spread 200 bp -> tree 94.11

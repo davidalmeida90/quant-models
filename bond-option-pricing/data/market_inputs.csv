@@ -1,0 +1,3 @@
+ticker,date,close,implied_vol,vol_source
+DASH,2026-10-14,184.01,0.48,"Yahoo Finance, listed DASH calls expiring January 2029"
+MSTR,2026-10-14,143.24,0.71,"Yahoo Finance, listed MSTR calls expiring December 2028 / January 2029"

@@ -38,6 +38,7 @@ projects keep their own repositories, listed in
 | [Volatility and option models](volatility-and-option-models/) | Straddles and calendars, Heston calibrated against one Black-Scholes vol, GJR-GARCH out of sample against the VIX, deep hedging in PyTorch, and the VIX futures basis trade | live Cboe chain + yfinance |
 | [Six volatility models](volatility-models/) | arch, QuantLib, FinancePy, tf-quant-finance, gs-quant and an SVI fit | free market data |
 | [Time series momentum](time-series-momentum/) | 990 settings swept on 45 ETFs, in sample and out of sample | ETF prices, yfinance |
+| [Bond option pricing](bond-option-pricing/) | The option inside three real bonds: a DoorDash convertible (Black-Scholes and a Tsiveriotis-Fernandes tree), a Viking callable (yield to worst, rate tree, OAS) and a Strategy putable | FINRA + SEC filings + Treasury + Yahoo |
 | [Yield curves, US and Brazil](yield-curve-us-brazil/) | FRED and Tesouro Direto, with a Nelson Siegel Svensson fit | FRED + BCB + Tesouro |
 | [Trading integration](trading-integration/) | Connect a strategy to Alpaca or IBKR paper, TradingAgents, TradingView MCP and Lean | free paper accounts |
 
